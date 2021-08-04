@@ -1,0 +1,23 @@
+:root{
+    --wrapper: 114rem;
+    --primary-color:#7287ae;
+    --bg-color:#e3ecc2;
+    --white:white;
+    --dark: #504f4f;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+body{
+    color:var(--white);
+    background-color: var(--white);
+}
+.wrapper{
+    max-width: 144rem;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: var(--bg-color);
+}
